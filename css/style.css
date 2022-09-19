@@ -8,7 +8,7 @@ body {
   background-color: hsl(204deg, 43%, 93%);
 }
 body main {
-  width: 42rem;
+  width: 40rem;
   margin: 0 auto;
   margin-top: 10rem;
   display: grid;
@@ -20,11 +20,12 @@ body main .elements {
   padding-right: 4rem;
   padding-bottom: 1.5rem;
 }
-body main .elements h3, body main .elements p {
+body main .elements h2, body main .elements p {
   color: hsl(0deg, 0%, 100%);
 }
-body main .elements h3 {
+body main .elements h2 {
   margin-top: 0.5rem;
+  font-size: 1.2rem;
 }
 body main .elements:nth-of-type(1) {
   grid-area: a;
@@ -76,7 +77,7 @@ body main .elements:nth-of-type(2) button {
   font-size: 1rem;
 }
 body main .elements:nth-of-type(2) .promotion {
-  width: 105%;
+  width: 107%;
   margin-top: 0.5rem;
   margin-bottom: 2rem;
 }

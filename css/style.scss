@@ -6,7 +6,7 @@ body{
     font-family: 'Karla', sans-serif;
     background-color: hsl(204, 43%, 93%);
     main{
-        width: 42rem;
+        width: 40rem;
         margin: 0 auto;
         margin-top: 10rem;
         display: grid;
@@ -18,11 +18,12 @@ body{
             padding-right: 4rem;
             padding-bottom: 1.5rem;
 
-            h3,p{
+            h2,p{
                 color: hsl(0,0%,100%);
             }
-            h3{
+            h2{
                 margin-top: 0.5rem;
+                font-size: 1.2rem;
             }
 
         }
@@ -81,7 +82,7 @@ body{
                 font-size: 1.0rem;
             }
             .promotion{
-                width: 105%;
+                width: 107%;
                 margin-top: 0.5rem;
                 margin-bottom: 2rem;
 
